@@ -22,6 +22,12 @@ Plug 'w0rp/ale'
 Plug 'junegunn/fzf', {'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Git integration
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
+
 " Intellisense for neovim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
