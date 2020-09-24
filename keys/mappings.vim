@@ -22,7 +22,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
-inoremap <C-s> <ESC>:w<CR>a
+inoremap <C-s> <ESC>:w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape

@@ -5,9 +5,12 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'StanAngeloff/php.vim'
 
-" Theme
+" Themes
 Plug 'phanviet/vim-monokai-pro'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'rakr/vim-one'
 
 " File Tree browser
 Plug 'preservim/nerdtree'
@@ -28,8 +31,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
+
 " Intellisense for neovim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'alvan/vim-closetag'
+Plug 'mattn/emmet-vim'
 
 " Which Key?
 Plug 'liuchengxu/vim-which-key'
@@ -39,5 +45,6 @@ call plug#end()
 " Declare CoC extensions
 let g:coc_global_extensions = [
   \ 'coc-tsserver',
+  \ 'coc-phpls'
   \ ]
 
